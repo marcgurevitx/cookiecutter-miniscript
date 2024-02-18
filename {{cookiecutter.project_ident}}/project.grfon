@@ -1,0 +1,7 @@
+// Default command for *-launch.sh
+command: {{ cookiecutter.default_command }}
+
+// Add these dirs to import paths
+dirs: {
+	//ext/foo/lib;
+}
