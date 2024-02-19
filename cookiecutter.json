@@ -2,6 +2,5 @@
 	"project_name": "Foo bar",
 	"project_ident": "{{ cookiecutter.project_name.split()[0].lower() + ''.join(cookiecutter.project_name.title().split()[1:]) }}",
 	"project_ident_cap": "{{ cookiecutter.project_ident[0].upper() + cookiecutter.project_ident[1:] }}",
-	"project_version": "0.0.0",
 	"default_command": "test"
 }

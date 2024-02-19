@@ -16,7 +16,7 @@ if not globals.hasIndex("ensureImport") then
 	end function
 end if
 
-//ensureImport "bar"
+//ensureImport "{{ cookiecutter.project_ident }}Util"
 
 foo = function
 	return "foo"

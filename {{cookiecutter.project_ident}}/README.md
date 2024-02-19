@@ -4,7 +4,12 @@
 
 ## Installation
 
-To install `{{ cookiecutter.project_ident }}` you only need files from the `lib/` folder, the rest is development / testing stuff. There are *two* ways to install:
+To install the `{{ cookiecutter.project_ident }}` library you only need files from the `lib/` folder, the rest is development / testing stuff. There are *two* ways to install:
 
-1. Copy the contetnts of `lib/` into your project's `lib/` (or)
+1. Copy the contents of the `lib/` folder into your project's `lib/`; or else
 1. Change your project's import path to include `lib/`
+
+
+
+
+(Generated with [cookiecutter-miniscript](https://github.com/marcgurevitx/cookiecutter-miniscript))
